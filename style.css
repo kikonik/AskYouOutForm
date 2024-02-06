@@ -95,6 +95,10 @@ body {
     border-radius: 50%;
 }
 
+.button_yes:hover{
+    cursor: pointer
+}
+
 .text_no{
     position: relative; bottom: 15px; left: 15px;
     transform: rotate(45deg);
