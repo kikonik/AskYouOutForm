@@ -1,8 +1,6 @@
 body {
-    background: rgb(159,0,167);
-    background: linear-gradient(90deg, rgba(159,0,167,1) 0%, rgba(185,30,183,1) 48%, rgba(255,155,253,1) 100%);
-    overflow-x: hidden;
-    
+    background: rgb(234,136,255);
+    background: linear-gradient(90deg, rgba(234,136,255,1) 0%, rgba(255,155,253,1) 100%);
 }
 
 .div_button_yes{
@@ -123,6 +121,7 @@ body {
 
 .image{
     position: relative; left: 42%; top: 130px;
+    width: 200px;
 }
 
 
