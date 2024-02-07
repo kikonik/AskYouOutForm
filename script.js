@@ -19,8 +19,8 @@ button_yes.addEventListener('click', () => {
 
 button_no.addEventListener('mouseover', () => {
 
-    const i = Math.floor(Math.random()*200)+1;
-    const j = Math.floor(Math.random()*200)+1;
+    const i = Math.floor(Math.random()*100)+1;
+    const j = Math.floor(Math.random()*100)+1;
 
     button_no.style.left = i + "px"
     button_no.style.top = j + "px"
