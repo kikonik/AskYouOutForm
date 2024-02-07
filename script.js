@@ -6,7 +6,13 @@ const button_no = document.querySelector(".button_no");
 button_yes.addEventListener('click', () => {
 
     var img = document.getElementById("pic");
+    var audio = document.getElementById("audio")
+
     img.src = "ciganin.jpg"
+
+    audio.currentTime = 89;
+    audio.play()
+
 
 })
 
